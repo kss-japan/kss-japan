@@ -3,7 +3,7 @@
 :root {
   --navy: #0B2545;
   --navy-light: #143868;
-  --teal: #1ED9C2;
+  --teal: #06B6D4;
   --gray-bg: #F6F8FA;
   --text: #1A1A1A;
   --muted: #5A6472;
@@ -205,6 +205,66 @@ section h2 {
   gap: 14px;
   margin-top: 18px;
   flex-wrap: wrap;
+}
+
+/* Founder card */
+.founder-card {
+  margin-top: 24px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  box-shadow: 0 4px 16px rgba(11, 37, 69, 0.04);
+}
+
+.founder-avatar {
+  flex-shrink: 0;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal), var(--navy));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.founder-body h4 { color: var(--navy); margin-bottom: 4px; font-size: 19px; font-weight: 700; }
+.founder-title { color: var(--teal); font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; display: block; }
+.founder-body p { color: var(--muted); font-size: 14.5px; margin-bottom: 16px; }
+
+.founder-chips { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+.founder-chips span {
+  background: var(--gray-bg);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+  border-radius: 20px;
+  padding: 8px 18px;
+  transition: all 0.2s ease;
+}
+.linkedin-link:hover { background: var(--navy); color: #fff; }
+
+@media (max-width: 600px) {
+  .founder-card { flex-direction: column; align-items: center; text-align: center; }
 }
 
 .client-badges span {
