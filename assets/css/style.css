@@ -1,0 +1,122 @@
+:root {
+  --navy: #0B2545;
+  --teal: #1ED9C2;
+  --gray-bg: #F6F8FA;
+  --text: #1A1A1A;
+  --muted: #5A6472;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Helvetica Neue', 'Hiragino Sans', 'Yu Gothic', Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+a { color: var(--navy); text-decoration: none; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 6%;
+  border-bottom: 1px solid #E5E9EC;
+}
+
+header img { height: 36px; }
+
+nav ul { display: flex; gap: 28px; list-style: none; }
+
+nav a { font-weight: 500; font-size: 15px; }
+nav a:hover { color: var(--teal); }
+
+.lang-switch { font-size: 14px; color: var(--muted); }
+.lang-switch a { font-weight: 600; }
+
+.hero {
+  background: linear-gradient(135deg, var(--navy), #143868);
+  color: #fff;
+  padding: 110px 6% 90px;
+  text-align: center;
+}
+
+.hero h1 { font-size: 38px; margin-bottom: 16px; letter-spacing: 1px; }
+.hero p { font-size: 17px; color: #D5DEE8; max-width: 560px; margin: 0 auto; }
+
+section { padding: 80px 6%; max-width: 1080px; margin: 0 auto; }
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 36px;
+  text-align: center;
+  color: var(--navy);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: var(--gray-bg);
+  border-radius: 10px;
+  padding: 32px;
+  border-top: 3px solid var(--teal);
+}
+
+.card h3 { color: var(--navy); margin-bottom: 12px; font-size: 19px; }
+.card p { color: var(--muted); font-size: 15px; }
+
+.case-study {
+  margin-top: 40px;
+  background: #fff;
+  border: 1px solid #E5E9EC;
+  border-radius: 10px;
+  padding: 28px 32px;
+}
+
+.case-study h4 { color: var(--navy); margin-bottom: 8px; font-size: 16px; }
+.case-study p { color: var(--muted); font-size: 14px; }
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.company-table tr { border-bottom: 1px solid #E5E9EC; }
+.company-table th, .company-table td { text-align: left; padding: 16px 12px; font-size: 15px; }
+.company-table th { width: 180px; color: var(--muted); font-weight: 500; }
+
+.contact-form { max-width: 560px; margin: 0 auto; }
+.contact-form label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; margin-top: 18px; }
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #D5DEE8;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: inherit;
+}
+.contact-form textarea { min-height: 140px; resize: vertical; }
+.contact-form button {
+  margin-top: 24px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-form button:hover { background: var(--teal); color: var(--navy); }
+
+footer {
+  text-align: center;
+  padding: 32px 6%;
+  color: var(--muted);
+  font-size: 13px;
+  border-top: 1px solid #E5E9EC;
+}
