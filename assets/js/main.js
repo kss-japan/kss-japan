@@ -18,10 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const update = () => {
       const heroHeight = hero.offsetHeight;
       const progress = Math.min(Math.max(window.scrollY / heroHeight, 0), 1);
-      const scale = 1 - progress * 0.08;
-      const skew = progress * 2;
-      heroTitle.style.transform = `scale(${scale}) skewX(-${skew}deg)`;
-      heroTitle.style.letterSpacing = `${-1 - progress * 1.5}px`;
+      const scale = 1 - progress * 0.03;
+      heroTitle.style.transform = `scale(${scale})`;
+      heroTitle.style.letterSpacing = `${-1 - progress * 0.5}px`;
       ticking = false;
     };
     window.addEventListener('scroll', () => {
