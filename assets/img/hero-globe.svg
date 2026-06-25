@@ -9,15 +9,15 @@
     <line x1="300" y1="80" x2="300" y2="520"/>
   </g>
   <g>
-    <circle cx="220" cy="200" r="5" fill="#D7FF3F"/>
+    <circle cx="220" cy="200" r="5" fill="#06B6D4"/>
     <circle cx="400" cy="230" r="5" fill="#06B6D4"/>
     <circle cx="340" cy="380" r="5" fill="#06B6D4"/>
-    <circle cx="180" cy="360" r="5" fill="#D7FF3F"/>
+    <circle cx="180" cy="360" r="5" fill="#06B6D4"/>
     <circle cx="300" cy="300" r="6" fill="#06B6D4"/>
     <path d="M220 200 Q300 160 400 230" stroke="#06B6D4" stroke-width="1.5" fill="none" opacity="0.6"/>
     <path d="M400 230 Q420 320 340 380" stroke="#06B6D4" stroke-width="1.5" fill="none" opacity="0.6"/>
-    <path d="M340 380 Q260 420 180 360" stroke="#D7FF3F" stroke-width="1.5" fill="none" opacity="0.6"/>
-    <path d="M180 360 Q160 260 220 200" stroke="#D7FF3F" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M340 380 Q260 420 180 360" stroke="#06B6D4" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M180 360 Q160 260 220 200" stroke="#06B6D4" stroke-width="1.5" fill="none" opacity="0.6"/>
     <path d="M300 300 Q260 250 220 200" stroke="#fff" stroke-width="1" fill="none" opacity="0.4"/>
     <path d="M300 300 Q360 260 400 230" stroke="#fff" stroke-width="1" fill="none" opacity="0.4"/>
   </g>

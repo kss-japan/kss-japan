@@ -4,7 +4,6 @@
   --ink: #111827;
   --navy: #111827;
   --cyan: #06B6D4;
-  --acid: #D7FF3F;
   --gray-bg: #F1F1EF;
   --text: #111827;
   --muted: #5A6472;
@@ -20,7 +19,7 @@ body {
   color: var(--text);
   line-height: 1.7;
   overflow-x: hidden;
-  background: #fff;
+  background: #fff url('../img/section-pattern.svg') repeat fixed center;
 }
 
 a { color: var(--ink); text-decoration: none; }
@@ -58,7 +57,7 @@ nav a::after {
   left: 0; bottom: 0;
   width: 0;
   height: 3px;
-  background: var(--acid);
+  background: var(--cyan);
   transition: width 0.2s ease;
 }
 
@@ -73,7 +72,7 @@ nav a:hover::after { width: 100%; }
   transition: all 0.15s ease;
 }
 
-.lang-switch a:hover { background: var(--ink); color: var(--acid); }
+.lang-switch a:hover { background: var(--ink); color: var(--cyan); }
 
 /* Hero */
 .hero {
@@ -101,7 +100,7 @@ nav a:hover::after { width: 100%; }
   content: '';
   position: absolute;
   width: 260px; height: 260px;
-  background: var(--acid);
+  background: var(--cyan);
   filter: blur(80px);
   opacity: 0.18;
   bottom: -100px; left: 10%;
@@ -129,7 +128,7 @@ nav a:hover::after { width: 100%; }
   font-weight: 700;
   letter-spacing: 3px;
   color: var(--ink);
-  background: var(--acid);
+  background: var(--cyan);
   padding: 5px 12px;
   text-transform: uppercase;
   margin-bottom: 26px;
@@ -214,7 +213,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
-.card-icon svg { width: 26px; height: 26px; stroke: var(--acid); }
+.card-icon svg { width: 26px; height: 26px; stroke: var(--cyan); }
 
 .card h3 { color: var(--ink); margin-bottom: 12px; font-size: 20px; font-weight: 800; font-family: 'Space Grotesk', sans-serif; }
 .card p { color: var(--muted); font-size: 15px; }
@@ -246,7 +245,7 @@ section h2 {
   padding: 8px 16px;
   font-weight: 700;
   font-size: 14px;
-  color: var(--acid);
+  color: var(--cyan);
 }
 
 /* Founder card */
@@ -279,7 +278,7 @@ section h2 {
 }
 
 .founder-body h4 { color: var(--ink); margin-bottom: 4px; font-size: 20px; font-weight: 800; font-family: 'Space Grotesk', sans-serif; }
-.founder-title { color: var(--ink); background: var(--acid); display: inline-block; padding: 2px 8px; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; }
+.founder-title { color: var(--ink); background: var(--cyan); display: inline-block; padding: 2px 8px; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; }
 .founder-body p { color: var(--muted); font-size: 14.5px; margin-bottom: 16px; }
 
 .founder-chips { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
@@ -300,13 +299,13 @@ section h2 {
   font-weight: 800;
   font-size: 14px;
   color: var(--ink);
-  background: var(--acid);
+  background: var(--cyan);
   border: 2px solid var(--ink);
   border-radius: 0;
   padding: 8px 18px;
   transition: all 0.15s ease;
 }
-.linkedin-link:hover { background: var(--ink); color: var(--acid); }
+.linkedin-link:hover { background: var(--ink); color: var(--cyan); }
 
 @media (max-width: 600px) {
   .founder-card { flex-direction: column; align-items: center; text-align: center; }
@@ -344,7 +343,7 @@ section h2 {
 .contact-form textarea { min-height: 140px; resize: vertical; }
 .contact-form button {
   margin-top: 28px;
-  background: var(--acid);
+  background: var(--cyan);
   color: var(--ink);
   border: 3px solid var(--ink);
   padding: 15px 40px;

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 55" width="910" height="550">
+  <rect width="91" height="55" fill="#111827"/>
+  <rect x="0" y="0" width="91" height="1.5" fill="#06B6D4"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(6,6)">
+    <rect width="11" height="11" rx="2.4" fill="#0B0F1A"/>
+    <polygon points="6.7,1.6 3.6,6.4 5.6,6.4 4.4,9.6 8,4.8 5.8,4.8" fill="#06B6D4"/>
+  </g>
+  <text x="19" y="13.6" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="5.2" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">KSS</text>
+  <text x="19" y="17.6" font-family="'Helvetica Neue',Arial,sans-serif" font-size="1.9" font-weight="500" fill="#9CA3AF" letter-spacing="1">INC.</text>
+
+  <!-- Name / title -->
+  <text x="6" y="30" font-family="'Space Grotesk','Helvetica Neue',Arial,sans-serif" font-size="6.4" font-weight="700" fill="#FFFFFF">菅原 博史</text>
+  <text x="6" y="34.6" font-family="'Helvetica Neue',Arial,sans-serif" font-size="2.6" font-weight="500" fill="#06B6D4">代表取締役 CEO &amp; Founder</text>
+
+  <!-- Contact -->
+  <text x="6" y="43" font-family="'Helvetica Neue',Arial,sans-serif" font-size="2.6" fill="#E5E7EB">KSS株式会社</text>
+  <text x="6" y="46.6" font-family="'Helvetica Neue',Arial,sans-serif" font-size="2.6" fill="#E5E7EB">090-1124-3909</text>
+  <text x="6" y="50.2" font-family="'Helvetica Neue',Arial,sans-serif" font-size="2.6" fill="#E5E7EB">hsugawara@kss-inc.jp</text>
+
+  <!-- QR code -->
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQAAAABQysQIAAABw0lEQVR4nO1aUWrDMAx9sgv9dGAH2FGym+1qyVF2gEHyWbDRkGV32ehISw2zW+sjJMojCCGenuQQY8eC2UMAHfKH8bS5s8y8WAacz17ne+oum7kK4ljMA+MSXYGYFyB6Jfc9u5fNXAcJRDScPY4ZszzORHTDV3bMPDtkfj1RLbE8BuSwfViPTHCfB8D9RyzmISFWetmv1gZgZOYaw20LspKYFLGLzBAo8m700lt14bYEgUqDrA9EONiNS8RETeGatiDgSRTZpAI3691RicLGFzWFa9qDBMqZPAkVhPwIgN6X6sJtjBm8dDCpXa1iltqVgS29rSlc0xYEkQqiUtBBQoZgFqJQthh7dkvxrvOSbOglkW/n3fuyi+/dTWYGKA0LR/TaLcS7YyRftc67BbOLpL7OetcrUfTaLcAMiBwrl9TfsnXNUHBWs7pi4NTp+qx2t2ibdaEgu9y4Z9CuFkeKG76yawbPfjbxcZTFedBZLa13htrCbQmCjdRNWxz8OGvrerdQdjlTLjYCrWe31NkErCdAiGEdwFhfmMapn7gXOptwJ0oLHOdBpAxcFZGZxv9nmLL8PY8UNYVr2oJQ/xfnopXJ7hde4Uo1FZeBPwAAAABJRU5ErkJggg==" x="73" y="33" width="13" height="13"/>
+  <text x="73" y="48.5" font-family="'Helvetica Neue',Arial,sans-serif" font-size="1.8" fill="#9CA3AF">kss-inc.jp</text>
+</svg>
