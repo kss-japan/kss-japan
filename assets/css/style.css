@@ -202,6 +202,20 @@ section h2 {
   color: var(--ink);
 }
 
+.client-results { list-style: none; margin-top: 16px; display: grid; gap: 10px; }
+.client-results li { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.client-results span {
+  background: var(--gray-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.client-results p { flex: 1; min-width: 220px; }
+
 /* Founder card */
 .founder-card {
   margin-top: 24px;
